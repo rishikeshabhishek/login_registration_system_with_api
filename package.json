@@ -1,0 +1,35 @@
+{
+    "name": "login-registration-system",
+    "version": "1.0.0",
+    "description": "its a full features login-registration system",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "keywords": [
+        "login",
+        "registration",
+        "jwt",
+        "auth",
+        "node",
+        "express",
+        "mongo",
+        "jwt",
+        "webskitters",
+        "raju-sir"
+    ],
+    "author": "Abhishek Majumdar (abhishek.majumdar98@gmail.com)",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "connect-flash": "^0.1.1",
+        "cookie-parser": "^1.4.6",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.0.13",
+        "nodemailer": "^6.7.1",
+        "nodemon": "^2.0.15"
+    }
+}
